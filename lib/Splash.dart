@@ -52,7 +52,7 @@ class SplashScreenState extends State {
     Timer(
         Duration(seconds: 1),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => LoginSh())));
+            context, MaterialPageRoute(builder: (context) => AlertBoxEx())));
   }
 
   @override
