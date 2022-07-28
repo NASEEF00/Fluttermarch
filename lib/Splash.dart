@@ -18,6 +18,7 @@ import 'package:fluttermarch/Homepage.dart';
 import 'package:fluttermarch/LoginUsingSH.dart';
 import 'package:fluttermarch/Loginpage.dart';
 import 'package:fluttermarch/NamedRoutesEx.dart';
+import 'package:fluttermarch/NetflixUi/Screens.dart';
 import 'package:fluttermarch/PhoneApp/AppBarWithSearch.dart';
 import 'package:fluttermarch/RegistrationPage.dart';
 import 'package:fluttermarch/StackExample.dart';
@@ -28,6 +29,7 @@ import 'package:fluttermarch/Table.dart';
 import 'package:fluttermarch/listviewbuilder.dart';
 
 import 'HotelHomeUi.dart';
+import 'NetflixUi/NflixTabBar.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -52,7 +54,7 @@ class SplashScreenState extends State {
     Timer(
         Duration(seconds: 1),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => AlertBoxEx())));
+            context, MaterialPageRoute(builder: (context) => NflixOriginals())));
   }
 
   @override
